@@ -293,14 +293,14 @@
                 <div class="col-lg-6">
                     <div class="bg-white text-center rounded p-5">
                         <h1 class="mb-4">احجز موعد</h1>
-                        <form>
+                 <!--       <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>نوع الحجز</option>
                                         <option value="1">زيارة منزلية</option>
                                         <option value="2">زيارة المختبر</option>
-                                 <!--        <option value="3">Department 3</option> -->
+                            
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
@@ -335,7 +335,30 @@
                                     <button class="btn btn-primary w-100 py-3" type="submit">تأكيد الحجز</button>
                                 </div>
                             </div>
-                        </form>
+                        </form>   -->
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xrgvwlkn"
+  method="POST">
+  <lable>
+    <input type="text" name="الاسم بالكامل">
+   : الاسم بالكامل
+  </lable>
+  <label>
+    <input type="email" name="email">
+: البريد الالكتروني
+  </label>
+  <label>
+    <textarea name="message"></textarea>
+ : باقة أو تحليل إضافي (اختياري) 
+  </label>
+  <label>
+  <!-- your other form fields go here -->
+  <button type="submit">
+    احجز</button>
+  </label>
+</form>
+
                     </div>
                 </div>
             </div>
