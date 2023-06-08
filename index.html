@@ -267,9 +267,8 @@
     </div>
     <!-- Services End -->
 
-
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary my-5 py-5">
+     <!-- Appointment Start -->
+     <div class="container-fluid bg-primary my-5 py-5">
         <div class="container py-5">
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0">
@@ -278,20 +277,20 @@
                         <h1 class="display-4">احجز موعد لك ولأسرتك</h1>
                     </div>
                     <p class="text-white mb-5">قم بحجز موعد بكل سهولة</p>
-                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">حجز عبر الواتساب</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="https://api.whatsapp.com/send/?phone=966553155773&text&type=phone_number&app_absent=0">حجز عبر الواتساب</a>
                     <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">اقرأ المزيد</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-white text-center rounded p-5">
                         <h1 class="mb-4">احجز موعد</h1>
-                        <form>
+                 <!--       <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>نوع الحجز</option>
                                         <option value="1">زيارة منزلية</option>
                                         <option value="2">زيارة المختبر</option>
-                                 <!--        <option value="3">Department 3</option> -->
+                            
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
@@ -306,7 +305,7 @@
                                     <input type="text" class="form-control bg-light border-0" placeholder="الاسم بالكامل" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="tel" class="form-control bg-light border-0" placeholder="رقم الجوال" style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" placeholder=" البريد الالكتروني" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date" data-target-input="nearest">
@@ -326,7 +325,30 @@
                                     <button class="btn btn-primary w-100 py-3" type="submit">تأكيد الحجز</button>
                                 </div>
                             </div>
-                        </form>
+                        </form>   -->
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mknalvjz"
+  method="POST">
+  <lable>
+    <input type="text" name="الاسم بالكامل">
+   : الاسم بالكامل
+  </lable>
+  <label>
+    <input type="email" name="email">
+: البريد الالكتروني
+  </label>
+  <label>
+    <textarea name="message"></textarea>
+ : باقة أو تحليل إضافي (اختياري) 
+  </label>
+  <label>
+  <!-- your other form fields go here -->
+  <button type="submit">
+    احجز</button>
+  </label>
+</form>
+
                     </div>
                 </div>
             </div>
@@ -334,22 +356,23 @@
     </div>
     <!-- Appointment End -->
 
-
     <!-- Pricing Plan Start -->
     <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">الباقات</h5>
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5"> الباقات والعروض</h5>
                 <h1 class="display-4">باقات أوميغا</h1>
             </div>
             <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
+
+                <!--Packge 1 start-->
                 <div class="bg-light rounded text-center">
                     <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/Omega Logo.png" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">باقة 1</h3>
+                        <img class="img-fluid rounded-top" src="img/VitB12+D.jpeg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(255, 255, 255, 0);">
+                            <h3 class="text-white"></h3>
                             <h1 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">ريال</small>49<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;"></small><small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
                             </h1>
                         </div>
                     </div>
@@ -358,63 +381,76 @@
                         <p>Highly Experienced Doctors</p>
                         <p>Highest Success Rate</p>
                         <p>Telephone Service</p> -->
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">قدم الآن</a>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2"> احجز</a>
                     </div>
                 </div>
+                <!--Packge 1 end-->
+
+<!--Packge 2 start-->
                 <div class="bg-light rounded text-center">
                     <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/Omega Logo.png" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">باقة 2</h3>
+                        <img class="img-fluid rounded-top" src="img/تحاليل مجانية لذوي الاحتياجات.jpeg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(255, 255, 255, 0);">
+                            <h3 class="text-white"></h3>
                             <h1 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">ريال</small>99<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;"></small><small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
                             </h1>
                         </div>
                     </div>
                     <div class="text-center py-5">
-            <!--     <p>لفترة محدودة</p>
-                      <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p> -->
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">قدم الآن</a>
-                    </div>
-                </div>
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/Omega Logo.png" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">باقة 3</h3>
-                            <h1 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">ريال</small>149<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                    <!--    <p>لفترة محدودة</p>
-                       <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p> -->
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">قدم الآن</a>
-                    </div>
-                </div>
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/Omega Logo.png" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">باقة 4</h3>
-                            <h1 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">ريال</small>199<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                      <!--  <p>Emergency Medical Treatment</p>
+                <!--        <p>Emergency Medical Treatment</p>
                         <p>Highly Experienced Doctors</p>
                         <p>Highest Success Rate</p>
                         <p>Telephone Service</p> -->
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">قدم الآن</a>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2"> احجز</a>
                     </div>
                 </div>
+  <!--Packge 2 end-->
+
+  <!--Packge 3 start-->
+  <div class="bg-light rounded text-center">
+    <div class="position-relative">
+        <img class="img-fluid rounded-top" src="img/Free HBA1c after age 50.jpeg" alt="">
+        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(255, 255, 255, 0);">
+            <h3 class="text-white"></h3>
+            <h1 class="display-4 text-white mb-0">
+                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;"></small><small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
+            </h1>
+        </div>
+    </div>
+    <div class="text-center py-5">
+<!--        <p>Emergency Medical Treatment</p>
+        <p>Highly Experienced Doctors</p>
+        <p>Highest Success Rate</p>
+        <p>Telephone Service</p> -->
+        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2"> احجز</a>
+    </div>
+  </div>
+<!--Packge 3 end-->
+
+<!--Packge 4 start-->
+  <div class="bg-light rounded text-center">
+    <div class="position-relative">
+        <img class="img-fluid rounded-top" src="img/50 Discount.jpeg" alt="">
+        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(255, 255, 255, 0);">
+            <h3 class="text-white"></h3>
+            <h1 class="display-4 text-white mb-0">
+                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;"></small><small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;"></small>
+            </h1>
+        </div>
+    </div>
+    <div class="text-center py-5">
+<!--        <p>Emergency Medical Treatment</p>
+        <p>Highly Experienced Doctors</p>
+        <p>Highest Success Rate</p>
+        <p>Telephone Service</p> -->
+        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2"> احجز</a>
+    </div>
+  </div>
+<!--Packge 4 end-->
+
+
+
             </div>
         </div>
     </div>
